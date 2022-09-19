@@ -6,6 +6,9 @@
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
+    "clean-next": "rmdir /s /q .next",
+    "clean-nm": "rmdir /s /q node_modules",
+    "clean-out": "rmdir /s /q out",
     "generate": "nuxt generate",
     "lint:js": "eslint --ext \".js,.vue\" --ignore-path .gitignore .",
     "lint": "npm run lint:js",
@@ -16,8 +19,10 @@
     "@nuxtjs/style-resources": "^1.2.1",
     "core-js": "^3.8.3",
     "node-sass": "^7.0.1",
-    "nuxt": "^2.14.12",
-    "sass-loader": "10"
+    "nuxt": "^2.13.3",
+    "sass-loader": "10",
+    "vue": "^2.7.10",
+    "vue-server-renderer": "^2.6.12"
   },
   "devDependencies": {
     "@nuxtjs/eslint-config": "^5.0.0",
