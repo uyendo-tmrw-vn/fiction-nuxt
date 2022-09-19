@@ -17,6 +17,7 @@ export default {
   css: [
     '@/assets/styles/main.scss',
   ],
+  target: 'static',
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [],
@@ -55,7 +56,7 @@ export default {
   pageTransition: {
     name: 'page',
     mode: 'out-in',
-    beforeEnter (el) {
+    beforeEnter(el) {
       console.log('Before enter...');
     }
   }
