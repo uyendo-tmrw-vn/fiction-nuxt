@@ -1,16 +1,8 @@
 <template>
   <div>
     <Loading />
-    <div class="container-fluid text-[#fff]">
-      <div class="flex justify-start">
-        <div class="w-[20%] border-r-1 border-[#fff] bg-[#1f374a] h-screen overflow-y-auto">
-          <Logo />
-          <Menu />
-        </div>
-        <div class="flex-1 bg-[#2f495e] p-5">
-          <Nuxt />
-        </div>
-      </div>
+    <div class="container-fluid ">
+      <Nuxt />
     </div>
   </div>
 </template>
