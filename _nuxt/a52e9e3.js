@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[5],{358:function(t,n,e){"use strict";e.r(n);var l={layout:"blog"},o=e(27),component=Object(o.a)(l,(function(){return(0,this._self._c)("h1",{staticClass:"title mb-4 border text-center"},[this._v("\n\tPage Blog\n")])}),[],!1,null,null,null);n.default=component.exports}}]);
